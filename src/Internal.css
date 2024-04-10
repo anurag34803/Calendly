@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Navbar Design */
+
+.navbar .opt li {
+    display: inline;
+    margin: 20px;
+}
+
+.navbar .opt li a {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.navbar .opt li a:hover {
+    text-decoration: underline;
+}
+
+.mob-nav a {
+    width: 100%;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 15px 0;
+    border-bottom: 1px solid rgb(226 232 240);
+}
+
+.mob-nav .login:hover {
+     /* background-color: black; */
+     border: 1px solid black;
+     /* color: white; */
+     outline: none;
+}
+
+.btns a {
+    border: none;
+}
+
+/* banner design */
+.banner-opt a {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 20px;
+    color: gray;
+    border-bottom: 3px solid rgb(236, 237, 238);
+}
+
+.banner-opt a:first-child {
+    color: #046bff;
+    border-bottom: 3px solid #046bff;
+}
+
+
+.banner-opt a:hover {
+    background: rgb(240 249 255);
+}
+
+.overflow-x-auto::-webkit-scrollbar {
+    display: none; /* Hide scrollbar in Webkit browsers */
+
+}
+
+/* Newsletter */
+
+form {
+    font-family: "Poppins";
+}
+
+input {
+
+    outline : none;
+    font-weight: 500;
+}
+
+label {
+    font-weight: 500;
+    margin: 4px;
+}
+
+span {
+    margin: 0; 
+}
+
+/* footer design */
+
+.small-text {
+    font-size: 10px;
+    font-weight: 200;
+}
+
+.social-buttons a {
+    margin-right: 30px;
+}
+
+.footer-opt a:hover {
+    text-decoration: underline;
+}
+
